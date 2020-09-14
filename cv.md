@@ -17,7 +17,6 @@ I use Linux as a main operating system on my own laptop. I practice healthy life
 * Experience with relational databases (MySQL)
 * Server technologies for building web sites
 * Experience with coding on PHP
-* Web application development using CMS (Drupal, MODX, Wordpress)
 * Version Control System (Git)
 * SEO promotion
 * Touch-typing in Russian and English.
