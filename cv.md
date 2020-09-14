@@ -27,8 +27,8 @@ I have knowledge about graphic design, UX and UI, experience in Adobe Photoshop 
 
 1. I created landing page for "SOS-children's villages of Belarus". The purpose of the page is to send the user to the payment page "SOS-Children's Villages Belarus" [link on github](https://github.com/koverchik/landing_page_sos-villages)
 1. Extension for Chrome [turnover](https://chrome.google.com/webstore/detail/%D0%B2%D0%BE%D0%BB%D1%87%D0%BE%D0%BA/koeiejhpmfecjlhochohahgfajcljjoc)
-1. Extension for Chrome [genteel] https://chrome.google.com/webstore/detail/genteel/nonhjlhkkdmpimkklbmpdneimomekmmb
-1.  I am working on project   https://github.com/koverchik/my-finances
+1. Extension for Chrome [genteel](https://chrome.google.com/webstore/detail/genteel/nonhjlhkkdmpimkklbmpdneimomekmmb) [link on github](https://github.com/koverchik/extension_genteel)
+1.  I am working on project  [my-finances](https://github.com/koverchik/my-finances)
 ### Participated in the creation of several projects:
 
 1. [My repository on github](https://github.com/koverchik/mblog)  fork of  [project](https://github.com/diglabby/mblog) [blog falanster](https://blog.falanster.by/)
