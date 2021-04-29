@@ -29,17 +29,16 @@ div{
     align-self: center;
 }
 
-#basic-info h1, h4, h3, p, address{
+#basic-info h1, h4,h5, h6, h3, p, address{
 margin: 0;
 font: normal 16px sans-serif;
 }
+
 #basic-info h1{
   font-weight: bold;
   font-size: 20px;
 }
-#main-info div{
 
-}
 #main-info h3{
   font-weight: bold;
   font-size: 16px;
@@ -49,7 +48,7 @@ font: normal 16px sans-serif;
 #main-info ul, ol{
   font-family: 'Roboto', sans-serif;
   color: #272727;
-  margin: 20px;
+  margin: 0px;
 
 }
 #main-info div{
@@ -69,7 +68,36 @@ a{
   transform: scaleY(0.5) scaleX(1.5);
   animation: scale ease-in-out 10s infinite;
 }
+.block-experience{
+  padding: 5px 40px;
+}
+.block-experience  h4{
+  font-weight: bold;
+  margin: 10px 0;
+}
 
+.block-experience  h5{
+  font: normal 14px sans-serif;
+}
+.block-experience  h6{
+  font: normal 14px sans-serif;
+  margin-top: 10px;
+}
+
+.block-experience  ul{
+  padding: 15px;
+  font: normal 14px sans-serif;
+}
+.block-experience  li{
+  margin-left: 20px;
+}
+a{
+  font-family: 'Roboto', sans-serif;
+}
+.block-experience a{
+  margin: 20px;
+  padding: 20px 0;
+} 
 @keyframes scale {
   50% {
     transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, 15vh) scale(1);
