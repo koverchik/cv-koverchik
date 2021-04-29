@@ -32,42 +32,42 @@ React, Axios, laravel
 # December, 2020 - February, 2021
 Framework, library:
 React, mobx, Axios, Google APIs, validatorjs, Leaflet, MongoDB
-[DEMO] (https://www.google.com/url?q=https://rsclone-ecology.herokuapp.com/&sa=D&source=editors&ust=1619699575964000&usg=AOvVaw087LoXp6Ez1_Y1XrYT9JLs)
+[DEMO](https://www.google.com/url?q=https://rsclone-ecology.herokuapp.com/&sa=D&source=editors&ust=1619699575964000&usg=AOvVaw087LoXp6Ez1_Y1XrYT9JLs)
 [Repository](https://github.com/GrafDrakula-BlaBlaBla/rsclone/tree/main)
 
 ## COVID dashboard
 # December, 2020
 Framework, library:
 React
-[DEMO] (https://alexlevw.github.io/covid-dashboard/)
+[DEMO](https://alexlevw.github.io/covid-dashboard/)
 [Repository](https://github.com/AlexLevw/covid-dashboard)
 
 ## English for kids
 # December, 2020
 Language:
 JavaScript
-[DEMO] (https://koverchik.github.io/english-for-kids/)
+[DEMO](https://koverchik.github.io/english-for-kids/)
 [Repository](https://github.com/koverchik/english-for-kids)
 
 ## Game puzzle
 # November, 2020
 Language:
 JavaScript
-[DEMO] (https://koverchik.github.io/game-puzzle/)
+[DEMO](https://koverchik.github.io/game-puzzle/)
 [Repository](https://github.com/koverchik/game-puzzle)
 
 ## Momentum
 # October, 2020
 Language:
 JavaScript
-[DEMO] (https://koverchik.github.io/momentum/)
+[DEMO](https://koverchik.github.io/momentum/)
 [Repository](https://github.com/koverchik/momentum)
 
 ## Extension Chrome 
 # March, 2020 - May, 2020
 Language:
 JavaScript
-[DEMO] (https://chrome.google.com/webstore/detail/genteel/nonhjlhkkdmpimkklbmpdneimomekmmb)
+[DEMO](https://chrome.google.com/webstore/detail/genteel/nonhjlhkkdmpimkklbmpdneimomekmmb)
 [Repository](https://github.com/koverchik/extension_genteel)
 
 ### Education:
