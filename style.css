@@ -1,65 +1,89 @@
-body{
+body {
   margin: 0;
-  font:  normal 16px Arial sans-serif;
+  font: normal 16px Arial sans-serif;
   color: #272727;
-  background-image: linear-gradient(85deg, #B7AE9D 10%, #ACCECD 10%, #ACCECD 20%, white 20%, white 30%, #544E3E 30%, #544E3E 40%, #8A151B 40%, #8A151B 50%, #B7AE9D 50%, #B7AE9D 60%, #ACCECD 60%, #ACCECD 70%, white 70%, white 80%, #544E3E 80%, #544E3E 90%, #8A151B 90%);
-
+  background-image: linear-gradient(
+    85deg,
+    #b7ae9d 10%,
+    #accecd 10%,
+    #accecd 20%,
+    white 20%,
+    white 30%,
+    #544e3e 30%,
+    #544e3e 40%,
+    #8a151b 40%,
+    #8a151b 50%,
+    #b7ae9d 50%,
+    #b7ae9d 60%,
+    #accecd 60%,
+    #accecd 70%,
+    white 70%,
+    white 80%,
+    #544e3e 80%,
+    #544e3e 90%,
+    #8a151b 90%
+  );
 }
 
-article{
+article {
   margin: 0% 10%;
   padding: 30px 3% 60px 3%;
   background: white;
+}
 
+div {
+  font: normal 16px Arial sans-serif;
 }
-div{
-  font:  normal 16px Arial sans-serif;
-}
-#base-section{
+#base-section {
   display: flex;
   align-items: flex-end;
 }
-#image-user{
+#image-user {
   max-width: 150px;
   margin-right: 20px;
 }
 #basic-info {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
 }
 
-#basic-info h1, h4,h5, h6, h3, p, address{
-margin: 0;
-font: normal 16px sans-serif;
+#basic-info h1,
+h4,
+h5,
+h6,
+h3,
+p,
+address {
+  margin: 0;
+  font: normal 16px sans-serif;
 }
 
-#basic-info h1{
+#basic-info h1 {
   font-weight: bold;
   font-size: 20px;
 }
 
-#main-info h3{
+#main-info h3 {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
   margin: 20px;
-
+  color: #8a151b;
 }
-#main-info ul, ol{
-  font-family: 'Roboto', sans-serif;
+#main-info ul,
+ol {
+  font-family: "Roboto", sans-serif;
   color: #272727;
   margin: 0px;
-
 }
-#main-info div{
-    font-family: 'Roboto', sans-serif;
-    margin: 10px 0;
+#main-info div {
+  font-family: "Roboto", sans-serif;
+  margin: 10px 0;
 }
-a{
-    color:	#412151;
-    text-decoration:  none;
+a {
+  color: #8a151b;
+  text-decoration: none;
 }
-
 
 .layers {
   position: fixed;
@@ -68,39 +92,11 @@ a{
   transform: scaleY(0.5) scaleX(1.5);
   animation: scale ease-in-out 10s infinite;
 }
-.block-experience{
-  padding: 5px 40px;
-}
-.block-experience  h4{
-  font-weight: bold;
-  margin: 10px 0;
-}
 
-.block-experience  h5{
-  font: normal 14px sans-serif;
-}
-.block-experience  h6{
-  font: normal 14px sans-serif;
-  margin-top: 10px;
-}
-
-.block-experience  ul{
-  padding: 15px;
-  font: normal 14px sans-serif;
-}
-.block-experience  li{
-  margin-left: 20px;
-}
-a{
-  font-family: 'Roboto', sans-serif;
-}
-.block-experience a{
-  margin: 20px;
-  padding: 20px 0;
-} 
 @keyframes scale {
   50% {
-    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, 15vh) scale(1);
+    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, 15vh)
+      scale(1);
   }
 }
 p {
@@ -118,7 +114,8 @@ p:nth-child(0) {
 
 @keyframes slide-6 {
   50% {
-    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, 102vh) scale(0.2);
+    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, 102vh)
+      scale(0.2);
   }
 }
 p:nth-child(1) {
@@ -129,7 +126,8 @@ p:nth-child(1) {
 
 @keyframes slide-5 {
   50% {
-    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, 85vh) scale(0.25);
+    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, 85vh)
+      scale(0.25);
   }
 }
 p:nth-child(2) {
@@ -140,7 +138,8 @@ p:nth-child(2) {
 
 @keyframes slide-4 {
   50% {
-    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, 68vh) scale(0.3);
+    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, 68vh)
+      scale(0.3);
   }
 }
 p:nth-child(3) {
@@ -151,7 +150,8 @@ p:nth-child(3) {
 
 @keyframes slide-3 {
   50% {
-    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, 51vh) scale(0.35);
+    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, 51vh)
+      scale(0.35);
   }
 }
 p:nth-child(4) {
@@ -162,7 +162,8 @@ p:nth-child(4) {
 
 @keyframes slide-2 {
   50% {
-    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, 34vh) scale(0.4);
+    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, 34vh)
+      scale(0.4);
   }
 }
 p:nth-child(5) {
@@ -173,7 +174,8 @@ p:nth-child(5) {
 
 @keyframes slide-1 {
   50% {
-    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, 17vh) scale(0.45);
+    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, 17vh)
+      scale(0.45);
   }
 }
 p:nth-child(6) {
@@ -184,7 +186,8 @@ p:nth-child(6) {
 
 @keyframes slide0 {
   50% {
-    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, 0vh) scale(0.5);
+    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, 0vh)
+      scale(0.5);
   }
 }
 p:nth-child(7) {
@@ -195,7 +198,8 @@ p:nth-child(7) {
 
 @keyframes slide1 {
   50% {
-    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, -17vh) scale(0.55);
+    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, -17vh)
+      scale(0.55);
   }
 }
 p:nth-child(8) {
@@ -206,7 +210,8 @@ p:nth-child(8) {
 
 @keyframes slide2 {
   50% {
-    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, -34vh) scale(0.6);
+    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, -34vh)
+      scale(0.6);
   }
 }
 p:nth-child(9) {
@@ -217,7 +222,8 @@ p:nth-child(9) {
 
 @keyframes slide3 {
   50% {
-    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, -51vh) scale(0.65);
+    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, -51vh)
+      scale(0.65);
   }
 }
 p:nth-child(10) {
@@ -228,7 +234,8 @@ p:nth-child(10) {
 
 @keyframes slide4 {
   50% {
-    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, -68vh) scale(0.7);
+    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, -68vh)
+      scale(0.7);
   }
 }
 p:nth-child(11) {
@@ -239,6 +246,7 @@ p:nth-child(11) {
 
 @keyframes slide5 {
   50% {
-    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, -85vh) scale(0.75);
+    transform: rotateX(45deg) rotateZ(45deg) translate3d(0vh, 0vh, -85vh)
+      scale(0.75);
   }
 }

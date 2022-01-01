@@ -1,0 +1,33 @@
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+thead th:nth-child(1) {
+  width: 15%;
+}
+
+thead th:nth-child(2) {
+  width: 65%;
+}
+
+thead th:nth-child(3) {
+  width: 25%;
+}
+table a {
+  font: normal 16px sans-serif;
+  color: #8a151b;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+table h4 {
+  font: bold 18px sans-serif;
+}
+th {
+  font: normal 16px sans-serif;
+  border: 1px solid purple;
+}
