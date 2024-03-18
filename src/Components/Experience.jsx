@@ -13,9 +13,9 @@ export const  Experience = ()=> {
                         Integration of microservices using RabbitMQ to facilitate asynchronous communication between system components.
                         Creation and optimization of databases using PostgreSQL.
                         Development of APIs for interaction between microservices and external systems.
-                        Testing and debugging of microservices.
-                        Creation of deployment and update automation for microservices, adhering to continuous integration and development principles using Docker.
-                        Documentation of development processes in Confluence, as well as utilization of Jira.
+                        Testing and debugging microservices.
+                        Creation of automation deployment for microservices using Docker and Git.
+                        Documentation of development processes in Confluence, utilizing Jira.
                     </p>
                 </div>
             </div>
@@ -30,13 +30,13 @@ export const  Experience = ()=> {
                     <p className={'title-description-custom-list'}>{`${('PHP-programmer').toUpperCase()}`}</p>
                     <p className={'content-description-custom-list'}>
                         Development and maintenance of web applications using programming languages and frameworks:
-                        React, PHP, Python.
+                        React, PHP and Python.
                         Participation in all stages of development, including requirements analysis, design, development, testing, and deployment.
                         Creation and optimization of databases for web applications.
                         Integration of web applications with external services and APIs.
                         Collaboration within a development team and coordination with other departments: designers, QA engineers.
-                        Utilization of Git version control systems for code management and tracking changes.
-                        Documentation of development processes in Confluence, as well as usage of Jira and Teams.
+                        Utilization of Git version control systems for code management.
+                        Documentation of development processes in Confluence. Using Jira and Teams for corporate and private work arrangement.
                     </p>
                 </div>
             </div>
@@ -47,11 +47,11 @@ export const  Experience = ()=> {
                 </div>
                 <div className={'description-custom-list'}>
                     <p className={'title-description-custom-list'}>{`${('Programmer').toUpperCase()}`}</p>
-                    <p className={'content-description-custom-list'}>Development of mobile applications using React Native.
+                    <p className={'content-description-custom-list'}>
+                        Development of mobile applications using React Native.
                         Integration of mobile applications with web services and APIs, ensuring efficient interaction with the server-side.
-                        Optimization and testing of mobile applications.
-                        Participation in the implementation of new features and updates in mobile applications,
-                        following the principles of continuous integration and development.
+                        Optimization and testing mobile applications.
+                        Participation in the implementation of new features and updates in mobile applications.
                     </p>
                 </div>
             </div>
@@ -62,7 +62,7 @@ export const  Experience = ()=> {
                 </div>
                 <div className={'description-custom-list'}>
                     <p className={'title-description-custom-list'}>{`${('Support Specialist').toUpperCase()}`}</p>
-                    <p className={'content-description-custom-list'}>Handling of user complaints</p>
+                    <p className={'content-description-custom-list'}>Handling user complaints</p>
                 </div>
             </div>
         </>

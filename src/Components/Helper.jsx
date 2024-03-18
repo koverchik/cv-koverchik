@@ -1,4 +1,4 @@
-export const textSummary = "Programmer with expertise in PHP and JavaScript, specializing in backend development. Proficient in using frameworks such as Symfony and React to create robust and scalable web applications. Possesses strong leadership skills and has successfully led development teams in delivering software solutions.";
+export const textSummary = "Programmer with expertise in PHP and JavaScript, specializing in backend development. Proficient in using frameworks such as Symfony and React to create robust and scalable web applications. Possess strong leadership skills and have successfully led development teams in delivering software solutions.";
 
 const THEME_NAME = {
     Dark: 'dark',

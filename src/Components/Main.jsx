@@ -15,7 +15,7 @@ export const  Main = ()=> {
             <div className={'main-information-block extra-information'}>
                 <InformationBlock name={'Contact'} text={<Contacts/>}/>
                 <InformationBlock name={'Skills'} text={<Skils/>}/>
-                <InformationBlock name={'Hobbies'} text={'Dancing, gym, writing'}/>
+                <InformationBlock name={'Hobbies'} text={'Dancing, gym, writing poems'}/>
                 <InformationBlock name={'Languages'} text={<Languages/>}/>
             </div>
         </div>

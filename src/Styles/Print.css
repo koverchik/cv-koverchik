@@ -29,4 +29,11 @@
     padding:  0;
     margin: 0;
   }
+  .main-information{
+    display: block !important;
+    flex-direction: column;
+  }
+  .extra-information{
+    display: block !important;
+  }
 }
