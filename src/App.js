@@ -1,5 +1,6 @@
 import './Styles/App.css';
 import './Styles/Print.css';
+import './Styles/Mobile.css';
 import './Styles/MainBlock.css';
 import './Styles/Contacts.css';
 import './Styles/Button.css';
