@@ -1,0 +1,12 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+li::before {
+    color:  var(--accent);
+    content: "▪";
+    padding: 0 10px;
+}

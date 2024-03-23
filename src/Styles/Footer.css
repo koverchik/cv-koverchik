@@ -1,0 +1,5 @@
+.wrapper-download-button{
+    width: 100%;
+    height: 75px;
+    background-color:  var(--shadow);
+}
