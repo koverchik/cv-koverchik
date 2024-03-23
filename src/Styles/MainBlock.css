@@ -17,6 +17,5 @@
 
 .extra-information{
   flex-grow: 1;
-  width: 100%;
   align-self: baseline;
 }

@@ -55,4 +55,7 @@
     width:auto !important;
     align-items: center !important;
   }
+  .container-download-button {
+    display: none !important;
+  }
 }

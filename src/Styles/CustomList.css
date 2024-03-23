@@ -10,7 +10,7 @@ margin: 0 10px;
 }
 
 .basic-information-custom-list{
-    width: 200px;
+    width: 220px;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -43,4 +43,5 @@ margin: 0 10px;
 
 .content-description-custom-list{
 padding: 10px 0;
+text-align: justify;
 }

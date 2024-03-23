@@ -7,11 +7,11 @@
 }
 
 [data-theme='dark'] {
-  --background: #15020D;
+  --background: #060930;
   --text-primary: white;
-  --text-secondary: #7D7D7D;
-  --accent: #490029;
-  --shadow: #460228;
+  --text-secondary: #C4C7E6;
+  --accent: #9F385A;
+  --shadow: #67122F;
 }
 
 [data-theme='light'] {
