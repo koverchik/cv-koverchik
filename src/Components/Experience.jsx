@@ -3,8 +3,25 @@ export const  Experience = ()=> {
         <>
             <div className={'custom-list'}>
                 <div className={'basic-information-custom-list'}>
-                    <p className={'title-basic-information-custom-list'}>Amasty</p>
+                    <p className={'title-basic-information-custom-list'}>DEVXED</p>
                     <div><p>September 2024</p><span>—</span><p>till now</p></div>
+                </div>
+                <div className={'description-custom-list'}>
+                    <p className={'title-description-custom-list'}>{`${('Software Engineer').toUpperCase()}`}</p>
+                    <p className={'content-description-custom-list'}>
+                        Developing and maintaining web applications using PHP and the Symfony framework, ensuring clean, efficient, and maintainable code.
+                        Creating dynamic and responsive user interfaces using jQuery and Twig templates.
+                        Designing and optimizing MySQL databases for high performance and scalability.
+                        Debugging and optimizing code for better performance and system stability.
+                        Documenting development processes, best practices, and technical workflows in Confluence.
+                        Managing tasks and issue tracking using Jira, improving workflow efficiency.
+                    </p>
+                </div>
+            </div>
+            <div className={'custom-list'}>
+                <div className={'basic-information-custom-list'}>
+                    <p className={'title-basic-information-custom-list'}>Amasty</p>
+                    <div><p>September 2023</p><span>—</span><p>August 2024</p></div>
                 </div>
                 <div className={'description-custom-list'}>
                     <p className={'title-description-custom-list'}>{`${('Software developer').toUpperCase()}`}</p>
