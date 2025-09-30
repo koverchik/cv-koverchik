@@ -9,12 +9,12 @@ export const  Experience = ()=> {
                 <div className={'description-custom-list'}>
                     <p className={'title-description-custom-list'}>{`${('Software Engineer').toUpperCase()}`}</p>
                     <p className={'content-description-custom-list'}>
-                        Developing and maintaining web applications using PHP and the Symfony framework, ensuring clean, efficient, and maintainable code.
-                        Creating dynamic and responsive user interfaces using jQuery and Twig templates.
-                        Designing and optimizing MySQL databases for high performance and scalability.
-                        Debugging and optimizing code for better performance and system stability.
-                        Documenting development processes, best practices, and technical workflows in Confluence.
-                        Managing tasks and issue tracking using Jira, improving workflow efficiency.
+                        <p>Developing and maintaining web applications using PHP and the Symfony framework, ensuring clean, efficient, and maintainable code.</p>
+                        <p>Creating dynamic and responsive user interfaces using jQuery and Twig templates.</p>
+                        <p>Designing and optimizing MySQL databases for high performance and scalability.</p>
+                        <p>Debugging and optimizing code for better performance and system stability.</p>
+                        <p>Documenting development processes, best practices, and technical workflows in Confluence.</p>
+                        <p>Managing tasks and issue tracking using Jira, improving workflow efficiency.</p>
                     </p>
                 </div>
             </div>
@@ -69,16 +69,6 @@ export const  Experience = ()=> {
                         <p>Optimization and testing mobile applications.</p>
                         <p>Participation in the implementation of new features and updates in mobile applications.</p>
                     </div>
-                </div>
-            </div>
-            <div className={'custom-list'}>
-                <div className={'basic-information-custom-list'}>
-                    <p className={'title-basic-information-custom-list'}>Yandex</p>
-                    <div><p>April 2019</p><span>—</span><p>April 2020</p></div>
-                </div>
-                <div className={'description-custom-list'}>
-                    <p className={'title-description-custom-list'}>{`${('Support Specialist').toUpperCase()}`}</p>
-                    <p className={'content-description-custom-list'}>Handling user complaints</p>
                 </div>
             </div>
         </>
