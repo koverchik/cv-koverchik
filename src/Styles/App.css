@@ -45,7 +45,8 @@ button {
 
 .header{
   display: flex;
-  margin: 40px;
+  padding: 0 40px;
+  background-color: var(--accent);
 }
 
 .header-description{
@@ -78,16 +79,6 @@ h2 {
  img {
    z-index: 1;
  }
-
-  .background-signature {
-    position: absolute;
-    height: 165px;
-    width: 100%;
-    z-index: 0;
-    top: 0;
-    left: 0;
-    background-color: var(--accent);
-  }
 
 button{
   position: absolute;

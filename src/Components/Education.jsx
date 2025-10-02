@@ -1,4 +1,6 @@
-export const  Education = ()=> {
+import {EducationDictionary} from "../dictionary";
+
+export const  Education = ({language})=> {
     return   (
         <>
             <div className={'custom-list'}>
@@ -6,8 +8,8 @@ export const  Education = ()=> {
                     <div><p>2015 — 2018</p></div>
                 </div>
                 <div className={'description-custom-list'}>
-                    <p className={'title-description-custom-list'}>{`${('Institute of Business BSU').toUpperCase()}`}</p>
-                    <p className={'content-description-custom-list'}>IT-technologies, Web designer programmer</p>
+                    <p className={'title-description-custom-list'}>{`${(EducationDictionary[language].nameInstituteBSU).toUpperCase()}`}</p>
+                    <p className={'content-description-custom-list'}>{EducationDictionary[language].specializationInstituteBSU}</p>
                 </div>
             </div>
             <div className={'custom-list'}>
@@ -17,8 +19,8 @@ export const  Education = ()=> {
                     </div>
                 </div>
                 <div className={'description-custom-list'}>
-                    <p className={'title-description-custom-list'}>{`${('Belarusian State University').toUpperCase()}`}</p>
-                    <p className={'content-description-custom-list'}>Lawyer, civil law</p>
+                    <p className={'title-description-custom-list'}>{`${(EducationDictionary[language].nameBSU).toUpperCase()}`}</p>
+                    <p className={'content-description-custom-list'}>{EducationDictionary[language].specializationBSU}</p>
                 </div>
             </div>
         </>

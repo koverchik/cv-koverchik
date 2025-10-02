@@ -9,7 +9,7 @@ import './Styles/CustomList.css';
 import './Styles/Skils.css';
 import './Styles/Footer.css';
 import useLocalStorage from 'use-local-storage'
-import {getThemeName} from "./Components/Helper";
+import {getLanguageName, getThemeName} from "./Components/Helper";
 import {Header} from "./Components/Header";
 import {Footer} from "./Components/Footer";
 import {Main} from "./Components/Main";
@@ -18,6 +18,7 @@ import {Margin, usePDF} from 'react-to-pdf';
 function App() {
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
+    const [language, setLanguage] = useLocalStorage('language', 'en');
     const { toPDF, targetRef } = usePDF({filename: 'koverchik_cv.pdf', method: 'open', page: {
             margin: Margin.SMALL, orientation: "portrait"
         }});
@@ -25,24 +26,33 @@ function App() {
         setTheme(getThemeName(theme));
     }
 
-    const buttonName = `Switch to ${getThemeName(theme)}`;
+    const switchLanguage = () =>{
+        setLanguage(getLanguageName(language));
+    }
+
+    const buttonName = `${getThemeName(theme)}`;
 
     return (
         <div className="app" data-theme={theme} ref={targetRef}>
-            <div className="container">
-                <div className="center">
-                    <button onClick={switchTheme}  className="btn">
-                        <svg width="180px" height="40px" viewBox="0 0 180 40" className="border">
-                            <polyline points="179,1 179,59 1,59 1,1 179,1" className="bg-line"/>
-                            <polyline points="179,1 179,59 1,59 1,1 179,1" className="hl-line"/>
-                        </svg>
-                    <span> {buttonName}</span>
-                    </button>
+            <div>
+                <div className="theme-container">
+                    <div className="center">
+                        <button onClick={switchTheme} className="btn">
+                            <span> {buttonName}</span>
+                        </button>
+                    </div>
+                </div>
+                <div className="language-container">
+                    <div className="center">
+                        <button onClick={switchLanguage} className="btn">
+                            <span> {language}</span>
+                        </button>
+                    </div>
                 </div>
             </div>
             <Header/>
-            <Main/>
-            <Footer toPDF={toPDF} />
+            <Main language={language}/>
+            <Footer toPDF={toPDF}/>
         </div>
     );
 }

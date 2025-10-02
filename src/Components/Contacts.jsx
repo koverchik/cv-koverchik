@@ -1,5 +1,4 @@
 import { Mail } from "../Icons/Mail";
-import {Public} from "../Icons/Public";
 import {Telegram} from "../Icons/Telegram";
 import {Github} from "../Icons/Github";
 import {Linkedin} from "../Icons/Linkedin";
@@ -23,11 +22,6 @@ export const  Contacts = ()=> {
                 <Telegram/>
                 <a href={'https://t.me/tree_KO'}>tree_KO</a>
             </div>
-            <div className={'contact-item'}>
-                <Public/>
-                <p>Minsk, Belarus</p>
-            </div>
-
         </>
     )
 }

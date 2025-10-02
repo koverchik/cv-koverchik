@@ -4,19 +4,19 @@ import {Skils} from "./Skils";
 import {Languages} from "./Languages";
 import {Experience} from "./Experience";
 import {Education} from "./Education";
+import {TitlesDictionary} from "../dictionary";
 
-export const  Main = ()=> {
+export const  Main = ({language})=> {
     return   (
         <div className={'main-information'}>
             <div className={'main-information-block'}>
-                <InformationBlock name={'Experience'} text={<Experience/>}/>
-                <InformationBlock name={'Education'} text={<Education/>}/>
+                <InformationBlock name={TitlesDictionary[language].experience} text={<Experience language={language}/>}/>
+                <InformationBlock name={TitlesDictionary[language].education} text={<Education language={language}/>}/>
             </div>
             <div className={'main-information-block extra-information'}>
-                <InformationBlock name={'Contact'} text={<Contacts/>}/>
-                <InformationBlock name={'Skills'} text={<Skils/>}/>
-                <InformationBlock name={'Hobbies'} text={'Dancing, gym, writing poems'}/>
-                <InformationBlock name={'Languages'} text={<Languages/>}/>
+                <InformationBlock name={TitlesDictionary[language].contact} text={<Contacts/>}/>
+                <InformationBlock name={TitlesDictionary[language].skills} text={<Skils/>}/>
+                <InformationBlock name={TitlesDictionary[language].languages} text={<Languages language={language}/>}/>
             </div>
         </div>
     )
