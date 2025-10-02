@@ -50,9 +50,9 @@ function App() {
                     </div>
                 </div>
             </div>
-            <Header/>
+            <Header language={language}/>
             <Main language={language}/>
-            <Footer toPDF={toPDF}/>
+            <Footer toPDF={toPDF} language={language}/>
         </div>
     );
 }

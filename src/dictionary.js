@@ -1,4 +1,4 @@
-const titles_en =  {
+const titles_en = {
     'experience': 'Experience',
     'education': 'Education',
     'contact': 'Contact',
@@ -7,7 +7,7 @@ const titles_en =  {
     'hobbies': 'Hobbies'
 }
 
-const titles_ru =  {
+const titles_ru = {
     'experience': 'Опыт',
     'education': 'Образование',
     'contact': 'Контакты',
@@ -21,21 +21,116 @@ export const TitlesDictionary = {
     'en': titles_en
 }
 
-const education_en =  {
+const education_en = {
     'nameBSU': 'Belarusian State University',
     'nameInstituteBSU': 'Institute of Business BSU',
     'specializationBSU': 'Lawyer, civil law',
     'specializationInstituteBSU': 'IT-technologies, Web designer programmer',
 }
 
-const education_ru =  {
+const education_ru = {
     'nameBSU': 'Белорусский государственный университет',
     'nameInstituteBSU': 'Институт бизнеса и менеджмента технологий  БГУ',
     'specializationBSU': 'Юрист, гражданское право',
     'specializationInstituteBSU': 'IT-технологии, программист-Веб-дизайнер',
 }
 
-export const EducationDictionary ={
+export const EducationDictionary = {
     'ru': education_ru,
     'en': education_en
+};
+
+
+const experience_en = [
+    {
+        'name': 'DEVXED',
+        'start': 'September 2024',
+        'end': 'till now',
+        'position': 'Software Engineer',
+        'responsibilities': 'Developed and maintained web applications using PHP and the Symfony framework, ensuring clean, efficient, and maintainable code. Created dynamic and responsive user interfaces using jQuery and Twig templates. Designed and optimized MySQL databases for high performance and scalability. Debugged and optimized code for better performance and system stability. Documented development processes, best practices, and technical workflows in Confluence. Managed tasks and issue tracking using Jira improving workflow efficiency.'
+    },
+    {
+        'name': 'Amasty',
+        'start': 'September 2023',
+        'end': 'August 2024',
+        'position': 'Software developer',
+        'responsibilities':
+            'Developed microservices architecture to boost the functionality and scalability of the system, utilizing the Symphony framework for service construction, including there testing and debugging. Integrated of microservices using RabbitMQ to facilitate asynchronous communication between system components.' +
+            'Creation and optimization of databases using PostgreSQL.' +
+            'Creation of automation deployment for microservices using Docker and Git.' +
+            'Draw up manuals for using apps in Confluence using Jira.' +
+            'Increased speed of a set up and deployment process on 30% in microservices project.'
+    },
+    {
+        'name': 'ScienceSoft',
+        'start': 'January 2022',
+        'end': 'September 2023',
+        'position': 'PHP-programmer',
+        'responsibilities': 'Developed and maintained of web applications using React, PHP and Python.' +
+            'Participated in all stages of development, including requirements analysis, design, development, testing, and deployment.' +
+            'Utilization of Git version control systems for code management.'
+    },
+    {
+        'name': 'Belitsoft',
+        'start': 'September 2021',
+        'end': 'December 2021',
+        'position': 'Programmer',
+        'responsibilities':
+            'Developed mobile applications using React Native.' +
+            'Integrated mobile applications with Firebase services and APIs, ensuring efficient interaction with the server-side.' +
+            'Participated in the implementation of new features and updates in mobile applications.'
+    }
+]
+
+const experience_ru = [
+    {
+        'name': 'ДЕВХЭД',
+        'start': 'Сентябрь 2024',
+        'end': 'сейчас',
+        'position': 'PHP программист',
+        'responsibilities': 'Разрабатывала и поддерживала веб-приложения на PHP с использованием фреймворка Symfony, обеспечивая чистый, эффективный и легко сопровождаемый код.' +
+            'Создавала динамичные и адаптивные пользовательские интерфейсы с применением jQuery и шаблонов Twig.' +
+            'Проектировала и оптимизировал базы данных MySQL для высокой производительности и масштабируемости.' +
+            'Проводила отладку и оптимизацию кода для повышения стабильности системы и быстродействия.' +
+            'Вела документацию по процессам разработки, лучшим практикам и техническим рабочим процессам в Confluence.' +
+            'Организовывала задачи и отслеживала прогресс с помощью Jira, что повышало эффективность рабочих процессов.'
+    },
+    {
+        'name': 'АмДев',
+        'start': 'Сентябрь 2023',
+        'end': 'Август 2024',
+        'position': 'Разработчик',
+        'responsibilities':
+            'Разрабатывала архитектуру микросервисов для повышения функциональности и масштабируемости системы, используя фреймворк Symfony для построения сервисов, включая их тестирование и отладку.' +
+            'Реализовала интеграцию микросервисов через RabbitMQ, обеспечив эффективное асинхронное взаимодействие компонентов системы.' +
+            'Разработала и оптимизировала базы данных на PostgreSQL, что улучшило производительность и надежность работы приложений.' +
+            'Автоматизировала процесс развертывания микросервисов с использованием Docker и Git, значительно сократив время ручных операций.' +
+            'Подготовила подробные руководства по использованию приложений в Confluence и организовала процесс управления задачами через Jira, что упростило командное взаимодействие.' +
+            'Добилась ускорения процессов настройки и развертывания в проекте микросервисов на 30%, что напрямую повлияло на эффективность разработки.'
+    },
+    {
+        'name': 'Научсофт',
+        'start': 'Январь 2022',
+        'end': 'Сентябрь 2023',
+        'position': 'PHP программист',
+        'responsibilities':
+            'Разрабатывала и поддерживала веб-приложения с использованием React, PHP и Python.' +
+            'Участвовала во всех этапах жизненного цикла разработки: от анализа требований и проектирования до разработки, тестирования и развертывания.' +
+            'Эффективно использовала системы контроля версий Git для управления кодом и командной работы.'
+    },
+    {
+        'name': 'Белитсофт Интернешнл',
+        'start': 'Сентябрь 2021',
+        'end': 'Декабрь 2021',
+        'position': 'Программист',
+        'responsibilities':
+            'Разработывала мобильные приложения с использованием React Native.' +
+            'Интегрировала мобильные приложения с сервисами и API Firebase, обеспечив эффективное взаимодействие с серверной частью.' +
+            'Участвовала во внедрении новых функций и обновлений в мобильные приложения, способствуя повышению их функциональности и удобства для пользователей.'
+    }
+]
+
+export const experienceDictionary = {
+    'ru': experience_ru,
+    'en': experience_en
 };

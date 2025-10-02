@@ -7,13 +7,12 @@
 }
 
 [data-theme='dark'] {
-  --background: #060930;
-  --text-primary: white;
-  --text-secondary: #C4C7E6;
-  --accent: #9F385A;
-  --shadow: #67122F;
+    --background: #1E1E1E;
+    --text-primary: #F5F5F5;   /* главный текст */
+    --text-secondary: #CFCFCF; /* вторичный текст — светлее и заметнее */
+    --accent: #4DA6FF;
+    --shadow: #00000080;
 }
-
 [data-theme='light'] {
   --background: white;
   --text-primary: #15020D;
