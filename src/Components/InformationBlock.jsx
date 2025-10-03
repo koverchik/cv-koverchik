@@ -7,7 +7,7 @@ export const  InformationBlock = ({name, text})=> {
                 <Title name={name}/>
                 <div className={'top-border-line'}></div>
             </div>
-            <p>{text}</p>
+            {text}
         </div>
     )
 }

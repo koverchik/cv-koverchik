@@ -1,39 +1,72 @@
 @media print {
-  button{
-    display:none;
+  button {
+    display: none;
   }
-  .app{
-    font-size: small;
+
+  .app {
+    font-size: small !important;
   }
-  .header{
+
+  .header {
     margin: 25px 0 0 0;
     padding: 0;
   }
-  .header img{
+
+  .header img {
     width: 170px;
     height: 170px;
   }
-  .header-description{
-    padding: 0 0 0 25px ;
+
+  .header-description {
+    padding: 0 0 0 25px;
     margin: 0;
   }
-  h1{
+
+  h1 {
     margin: 0;
     padding: 0;
   }
-  .background-signature{
+
+  .background-signature {
     display: none;
   }
+
   .title {
     font-size: 16pt;
-    padding:  0;
+    padding: 0;
     margin: 0;
   }
-  .main-information{
+
+  .main-information {
     display: block !important;
     flex-direction: column;
   }
-  .extra-information{
-    display: block !important;
+
+  .main-information-block {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .extra-information {
+    display: flex !important;
+    flex-direction: row !important;
+    margin-top: 10px !important;
+  }
+
+  .title-basic-information-custom-list {
+    font-size: 14pt !important;
+  }
+
+  .custom-list, .content-description-custom-list {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .title-description-custom-list {
+    font-size: 14pt !important;
+  }
+
+  .title {
+    font-size: 16pt !important;
   }
 }

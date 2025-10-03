@@ -9,16 +9,16 @@ const LANGUAGE_NAME = {
 };
 
 const buttons_ru = {
-    'ru_language': 'РУ',
-    'en_language': 'АНГЛ',
+    'ru_language': 'ру',
+    'en_language': 'англ',
     'dark': 'тёмная',
     'light': 'светлая',
     'print': 'Печать'
 }
 
 const buttons_en = {
-    'ru_language': 'RU',
-    'en_language': 'EN',
+    'ru_language': 'ru',
+    'en_language': 'en',
     'dark': 'dark',
     'light': 'light',
     'print': 'Print'
@@ -29,7 +29,7 @@ export const buttonsDictionary = {
 }
 
 export const getThemeName = (currentName, currentLanguage) => {
-    return currentName === THEME_NAME.Dark ? buttonsDictionary[getLanguageName(currentLanguage)].light : buttonsDictionary[getLanguageName(currentLanguage)].dark
+    return currentName === THEME_NAME.Dark ? buttonsDictionary[currentLanguage].light : buttonsDictionary[currentLanguage].dark
 }
 
 export const getTheme = (currentName) => {
@@ -37,7 +37,7 @@ export const getTheme = (currentName) => {
 }
 
 export const getLanguageName = (currentLanguage) => {
-    return currentLanguage === LANGUAGE_NAME.RU ? LANGUAGE_NAME.RU : LANGUAGE_NAME.EN;
+    return currentLanguage === LANGUAGE_NAME.RU ? buttonsDictionary[currentLanguage].en_language : buttonsDictionary[currentLanguage].ru_language;
 }
 
 export const getLanguage = (currentLanguage) => {

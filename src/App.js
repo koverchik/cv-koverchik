@@ -20,36 +20,32 @@ function App() {
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
     const [language, setLanguage] = useLocalStorage('language', 'en');
-    const [buttonName, setButtonName] = useLocalStorage('buttonName', getThemeName(theme, language));
+    const [buttonThemeName, setButtonThemeName] = useLocalStorage('buttonThemeName', getThemeName(theme, language));
+    const [buttonLanguageName, setButtonLanguageName] = useLocalStorage('buttonLanguageName', getLanguageName(language));
     const {toPDF, targetRef} = usePDF({
         filename: 'koverchik_cv.pdf', method: 'open', page: {
             margin: Margin.SMALL, orientation: "portrait"
         }
     });
     useEffect(() => {
-        setButtonName(getThemeName(theme, language))
-    }, [language, setButtonName, theme]);
-    const switchTheme = () => {
-        setTheme(getTheme(theme));
-    }
-    const switchLanguage = () => {
-        setLanguage(getLanguage(language));
-    }
+        setButtonThemeName(getThemeName(theme, language))
+        setButtonLanguageName(getLanguageName(language))
+    }, [language, setButtonLanguageName, setButtonThemeName, theme]);
 
     return (
         <div className="app" data-theme={theme} ref={targetRef}>
             <div>
                 <div className="theme-container">
                     <div className="center">
-                        <button onClick={switchTheme} className="btn">
-                            <span> {buttonName}</span>
+                        <button onClick={() => setTheme(getTheme(theme))} className="btn">
+                            <span> {buttonThemeName}</span>
                         </button>
                     </div>
                 </div>
                 <div className="language-container">
                     <div className="center">
-                        <button onClick={switchLanguage} className="btn">
-                            <span> {language}</span>
+                        <button onClick={() => setLanguage(getLanguage(language))} className="btn">
+                            <span> {buttonLanguageName}</span>
                         </button>
                     </div>
                 </div>

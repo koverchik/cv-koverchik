@@ -4,8 +4,8 @@ export const  Skils = ()=> {
             <ul>
                 <li>PHP (Symfony, Laravel)</li>
                 <li>HTML, CSS, JavaScript</li>
-                <li>Linux (Ubuntu, Fedora)</li>
-                <li>SQL, PostgreSQL</li>
+                <li>Linux</li>
+                <li>SQL</li>
                 <li>Git</li>
                 <li>Docker</li>
                 <li>Jira</li>
