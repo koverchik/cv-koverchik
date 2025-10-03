@@ -20,7 +20,7 @@ function App() {
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
     const [language, setLanguage] = useLocalStorage('language', 'en');
-    const [buttonName, setButtonName] = useLocalStorage('buttonName', getTheme(defaultDark ? 'dark' : 'light'));
+    const [buttonName, setButtonName] = useLocalStorage('buttonName', getThemeName(theme, language));
     const {toPDF, targetRef} = usePDF({
         filename: 'koverchik_cv.pdf', method: 'open', page: {
             margin: Margin.SMALL, orientation: "portrait"

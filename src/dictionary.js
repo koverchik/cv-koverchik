@@ -66,7 +66,7 @@ const experience_en = [
         'start': 'January 2022',
         'end': 'September 2023',
         'position': 'PHP-programmer',
-        'responsibilities': 'Developed and maintained of web applications using React, PHP and Python.' +
+        'responsibilities': 'Developed and maintained of web applications using JS (React, jQuery), PHP (Symfony, Oro) and Python (Django).' +
             'Participated in all stages of development, including requirements analysis, design, development, testing, and deployment.' +
             'Utilization of Git version control systems for code management.'
     },
@@ -114,7 +114,7 @@ const experience_ru = [
         'end': 'Сентябрь 2023',
         'position': 'PHP программист',
         'responsibilities':
-            'Разрабатывала и поддерживала веб-приложения с использованием React, PHP и Python.' +
+            'Разрабатывала и поддерживала веб-приложения с использованием JS (React, jQuery), PHP (Symfony, Oro) и Python (Django).' +
             'Участвовала во всех этапах жизненного цикла разработки: от анализа требований и проектирования до разработки, тестирования и развертывания.' +
             'Эффективно использовала системы контроля версий Git для управления кодом и командной работы.'
     },

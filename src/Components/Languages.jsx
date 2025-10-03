@@ -5,7 +5,7 @@ export const  Languages = ({language})=> {
                 <ul>
                     <li>Belarusian — Native</li>
                     <li>Russian — Native</li>
-                    <li>English — Upper Intermediate</li>
+                    <li>English — B2</li>
                 </ul> :
                 <ul>
                     <li>Белорусский — родной</li>

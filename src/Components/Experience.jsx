@@ -13,11 +13,11 @@ export const Experience = ({language}) => {
                         </div>
                         <div className={'description-custom-list'}>
                             <p className={'title-description-custom-list'}>{`${position.toUpperCase()}`}</p>
-                            <p className={'content-description-custom-list'}>
+                            <div className={'content-description-custom-list'}>
                                 {sentences.map((data) => {
                                     return <p>{data}</p>
                                 })}
-                            </p>
+                            </div>
                         </div>
                     </div>
                 )

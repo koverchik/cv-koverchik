@@ -29,7 +29,7 @@ export const buttonsDictionary = {
 }
 
 export const getThemeName = (currentName, currentLanguage) => {
-    return currentName === THEME_NAME.Dark ? buttonsDictionary[getLanguageName(currentLanguage)].dark : buttonsDictionary[getLanguageName(currentLanguage)].light
+    return currentName === THEME_NAME.Dark ? buttonsDictionary[getLanguageName(currentLanguage)].light : buttonsDictionary[getLanguageName(currentLanguage)].dark
 }
 
 export const getTheme = (currentName) => {
