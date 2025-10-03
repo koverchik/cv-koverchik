@@ -1,11 +1,12 @@
-body{
+body {
   margin: 0;
 }
+
 .app {
   color: var(--text-primary);
   background-color: var(--background);
   font-size: large;
-  font-family: "Noto Sans Mono", monospace;
+  font-family: "Noto Slab", sans-serif;
   font-weight: 400;
   font-style: normal;
   transition: all .5s;
@@ -14,7 +15,7 @@ body{
 }
 
 button {
-  font-family: "Noto Sans Mono", monospace;
+  font-family: "Noto Slab", sans-serif;
   color: var(--text-primary);
   background-color: var(--background);
   border: 2px var(--text-primary) solid;
@@ -26,61 +27,61 @@ button {
 .title {
   background-color: var(--accent);
   font-size: 18pt;
-  padding:  0.4em 0.7em;
+  padding: 0.4em 0.7em;
   display: inline-block;
   margin: 0.7em 0;
 }
 
-.title-information-block{
+.title-information-block {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.top-border-line{
+.top-border-line {
   height: 2px;
   width: 100%;
   background-color: var(--accent);
 }
 
-.header{
+.header {
   display: flex;
   padding: 0 40px;
   background-color: var(--accent);
 }
 
-.header-description{
+.header-description {
   padding: 25px;
   z-index: 1;
 }
 
-.signature{
+.signature {
   height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-h1{
-  font-family: "Noto Sans Mono", monospace;
+h1 {
+  font-family: "Noto Slab", sans-serif;
   font-weight: 500;
   margin: 0;
   padding: 0;
 }
 
 h2 {
-  font-family: "Noto Sans Mono", monospace;
+  font-family: "Noto Slab", sans-serif;
   font-weight: 400;
   margin: 0;
   padding: 0;
   color: var(--text-secondary);
 }
 
- img {
-   z-index: 1;
- }
+img {
+  z-index: 1;
+}
 
-button{
+button {
   position: absolute;
   z-index: 1;
   top: 0;

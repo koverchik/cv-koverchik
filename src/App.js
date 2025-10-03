@@ -9,28 +9,32 @@ import './Styles/CustomList.css';
 import './Styles/Skils.css';
 import './Styles/Footer.css';
 import useLocalStorage from 'use-local-storage'
-import {getLanguageName, getThemeName} from "./Components/Helper";
+import {getLanguage, getLanguageName, getTheme, getThemeName} from "./Components/Helper";
 import {Header} from "./Components/Header";
 import {Footer} from "./Components/Footer";
 import {Main} from "./Components/Main";
 import {Margin, usePDF} from 'react-to-pdf';
+import {useEffect} from "react";
 
 function App() {
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
     const [language, setLanguage] = useLocalStorage('language', 'en');
-    const { toPDF, targetRef } = usePDF({filename: 'koverchik_cv.pdf', method: 'open', page: {
+    const [buttonName, setButtonName] = useLocalStorage('buttonName', getTheme(defaultDark ? 'dark' : 'light'));
+    const {toPDF, targetRef} = usePDF({
+        filename: 'koverchik_cv.pdf', method: 'open', page: {
             margin: Margin.SMALL, orientation: "portrait"
-        }});
-    const switchTheme = () =>{
-        setTheme(getThemeName(theme));
+        }
+    });
+    useEffect(() => {
+        setButtonName(getThemeName(theme, language))
+    }, [language, setButtonName, theme]);
+    const switchTheme = () => {
+        setTheme(getTheme(theme));
     }
-
-    const switchLanguage = () =>{
-        setLanguage(getLanguageName(language));
+    const switchLanguage = () => {
+        setLanguage(getLanguage(language));
     }
-
-    const buttonName = `${getThemeName(theme)}`;
 
     return (
         <div className="app" data-theme={theme} ref={targetRef}>

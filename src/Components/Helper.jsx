@@ -28,10 +28,18 @@ export const buttonsDictionary = {
     'en': buttons_en
 }
 
-export const getThemeName = (currentName) => {
+export const getThemeName = (currentName, currentLanguage) => {
+    return currentName === THEME_NAME.Dark ? buttonsDictionary[getLanguageName(currentLanguage)].dark : buttonsDictionary[getLanguageName(currentLanguage)].light
+}
+
+export const getTheme = (currentName) => {
     return currentName === THEME_NAME.Dark ? THEME_NAME.Light : THEME_NAME.Dark;
 }
 
 export const getLanguageName = (currentLanguage) => {
+    return currentLanguage === LANGUAGE_NAME.RU ? LANGUAGE_NAME.RU : LANGUAGE_NAME.EN;
+}
+
+export const getLanguage = (currentLanguage) => {
     return currentLanguage === LANGUAGE_NAME.RU ? LANGUAGE_NAME.EN : LANGUAGE_NAME.RU;
 }
