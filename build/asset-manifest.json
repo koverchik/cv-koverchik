@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/cv-koverchik/static/css/main.e5b8fb3c.css",
+    "main.js": "/cv-koverchik/static/js/main.26542080.js",
+    "static/js/977.4f327213.chunk.js": "/cv-koverchik/static/js/977.4f327213.chunk.js",
+    "static/js/455.5afb1f3b.chunk.js": "/cv-koverchik/static/js/455.5afb1f3b.chunk.js",
+    "static/js/453.b59664cd.chunk.js": "/cv-koverchik/static/js/453.b59664cd.chunk.js",
+    "index.html": "/cv-koverchik/index.html",
+    "main.e5b8fb3c.css.map": "/cv-koverchik/static/css/main.e5b8fb3c.css.map",
+    "main.26542080.js.map": "/cv-koverchik/static/js/main.26542080.js.map",
+    "977.4f327213.chunk.js.map": "/cv-koverchik/static/js/977.4f327213.chunk.js.map",
+    "455.5afb1f3b.chunk.js.map": "/cv-koverchik/static/js/455.5afb1f3b.chunk.js.map",
+    "453.b59664cd.chunk.js.map": "/cv-koverchik/static/js/453.b59664cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5b8fb3c.css",
+    "static/js/main.26542080.js"
+  ]
+}
