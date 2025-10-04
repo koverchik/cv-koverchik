@@ -40,15 +40,19 @@ export const EducationDictionary = {
     'en': education_en
 };
 
-
 const experience_en = [
     {
         'name': 'DEVXED',
         'start': 'September 2024',
         'end': 'till now',
         'position': 'Software Engineer',
-        'responsibilities': 'Developed and maintained web applications using PHP and the Symfony framework, ensuring clean, efficient, and maintainable code. Created dynamic and responsive user interfaces using jQuery and Twig templates.' +
-            'Designed and optimized databases (MySQL) for high performance and scalability. Debugged and optimized code for better performance and system stability. Documented development processes, best practices, and technical workflows in Confluence. Managed tasks and issue tracking using Jira improving workflow efficiency.'
+        'responsibilities':
+            'Developed and maintained web applications using PHP and the Symfony framework, ensuring clean, efficient, and maintainable code.' +
+            'Created dynamic and responsive user interfaces using jQuery and Twig templates.' +
+            'Designed and optimized databases (MySQL) for high performance and scalability.' +
+            'Debugged and optimized code for better performance and system stability.' +
+            'Documented development processes, best practices, and technical workflows in Confluence.' +
+            'Managed tasks and issue tracking using Jira improving workflow efficiency.'
     },
     {
         'name': 'Amasty',
@@ -56,9 +60,10 @@ const experience_en = [
         'end': 'August 2024',
         'position': 'Software developer',
         'responsibilities':
-            'Developed microservices architecture to boost the functionality and scalability of the system, utilizing the Symphony framework for service construction, including there testing and debugging. Integrated of microservices using RabbitMQ to facilitate asynchronous communication between system components.' +
-            'Creation and optimization of databases using SQL (PostgreSQL, SQLite).' +
-            'Creation of automation deployment for microservices using Docker and Git.' +
+            'Developed microservices architecture to boost the functionality and scalability of the system, utilizing the Symphony framework for service construction, including there testing and debugging.' +
+            'Integrated of microservices using RabbitMQ to facilitate asynchronous communication between system components.' +
+            'Created and optimized of databases using SQL (PostgreSQL, SQLite).' +
+            'Created automation deployment for microservices using Docker and Git (GitLab).' +
             'Draw up manuals for using apps in Confluence using Jira.' +
             'Increased speed of a set up and deployment process on 30% in microservices project.'
     },
@@ -67,9 +72,10 @@ const experience_en = [
         'start': 'January 2022',
         'end': 'September 2023',
         'position': 'PHP-programmer',
-        'responsibilities': 'Developed and maintained of web applications using JS (React, jQuery), PHP (Symfony, Oro) and Python (Django).' +
+        'responsibilities':
+            'Developed and maintained of web applications using JS (React, jQuery), PHP (Symfony, Oro) and Python (Django).' +
             'Participated in all stages of development, including requirements analysis, design, development, testing, and deployment.' +
-            'Utilization of Git version control systems for code management.'
+            'Used Git (Bitbucket) version control systems for code management.'
     },
     {
         'name': 'Belitsoft',
@@ -89,11 +95,12 @@ const experience_ru = [
         'start': 'Сентябрь 2024',
         'end': 'сейчас',
         'position': 'PHP программист',
-        'responsibilities': 'Разрабатывала и поддерживала веб-приложения на PHP (Symfony), обеспечивая чистый, эффективный и легко сопровождаемый код.' +
+        'responsibilities':
+            'Разрабатывала и поддерживала веб-приложения на PHP (Symfony), обеспечивая чистый, эффективный и легко сопровождаемый код.' +
             'Создавала динамичные и адаптивные пользовательские интерфейсы с применением jQuery и шаблонов Twig.' +
             'Проектировала и оптимизировала базы данных (MySQL) для высокой производительности и масштабируемости.' +
             'Вела документацию по процессам разработки, лучшим практикам и техническим рабочим процессам в Confluence.' +
-            'Организовывала задачи и отслеживала прогресс с помощью Jira, что повышало эффективность рабочих процессов.'
+            'Создавала задачи и отслеживала прогресс с помощью Jira, что повышало эффективность рабочих процессов.'
     },
     {
         'name': 'АмДев',
@@ -104,7 +111,7 @@ const experience_ru = [
             'Разрабатывала архитектуру микросервисов для повышения функциональности и масштабируемости системы, используя фреймворк Symfony для построения сервисов, включая их тестирование и отладку.' +
             'Реализовала интеграцию микросервисов через RabbitMQ, обеспечив эффективное асинхронное взаимодействие компонентов системы.' +
             'Разработала и оптимизировала базы данных SQL (PostgreSQL, SQLite), что улучшило производительность и надежность работы приложений.' +
-            'Автоматизировала процесс развертывания микросервисов с использованием Docker и Git, значительно сократив время ручных операций.' +
+            'Автоматизировала процесс развертывания микросервисов с использованием Docker и Git (GitLab), значительно сократив время ручных операций.' +
             'Подготовила подробные руководства по использованию приложений в Confluence и организовала процесс управления задачами через Jira, что упростило командное взаимодействие.' +
             'Добилась ускорения процессов настройки и развертывания в проекте микросервисов на 30%, что напрямую повлияло на эффективность разработки.'
     },
@@ -116,7 +123,7 @@ const experience_ru = [
         'responsibilities':
             'Разрабатывала и поддерживала веб-приложения с использованием JS (React, jQuery), PHP (Symfony, Oro) и Python (Django).' +
             'Участвовала во всех этапах жизненного цикла разработки: от анализа требований и проектирования до разработки, тестирования и развертывания.' +
-            'Эффективно использовала системы контроля версий Git для управления кодом и командной работы.'
+            'Эффективно использовала системы контроля версий Git (Bitbucket) для управления кодом и командной работы.'
     },
     {
         'name': 'Белитсофт Интернешнл',
