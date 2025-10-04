@@ -1,4 +1,4 @@
-import '../Styles/App.css';
+import '../App.css';
 import {Title} from "./Title";
 export const  InformationBlock = ({name, text})=> {
     return   (

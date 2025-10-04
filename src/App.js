@@ -1,4 +1,4 @@
-import './Styles/App.css';
+import './App.css';
 import './Styles/Print.css';
 import './Styles/Mobile.css';
 import './Styles/MainBlock.css';
@@ -8,6 +8,7 @@ import './Styles/ButtonDownload.css';
 import './Styles/CustomList.css';
 import './Styles/Skils.css';
 import './Styles/Footer.css';
+import './Styles/index.css'
 import useLocalStorage from 'use-local-storage'
 import {getLanguage, getLanguageName, getTheme, getThemeName} from "./Components/Helper";
 import {Header} from "./Components/Header";

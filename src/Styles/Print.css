@@ -8,7 +8,7 @@
   }
 
   .header {
-    margin: 25px 0 0 0;
+    margin: 0;
     padding: 0;
   }
 
@@ -18,7 +18,7 @@
   }
 
   .header-description {
-    padding: 0 0 0 25px;
+    padding: 0 0 0 15px;
     margin: 0;
   }
 
@@ -32,7 +32,7 @@
   }
 
   .title {
-    font-size: 16pt;
+    font-size: 14pt;
     padding: 0;
     margin: 0;
   }

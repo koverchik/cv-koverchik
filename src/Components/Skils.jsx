@@ -9,7 +9,6 @@ export const  Skils = ()=> {
                 <li>Git</li>
                 <li>Docker</li>
                 <li>Jira</li>
-                <li>Figma</li>
             </ul>
         </>
     )

@@ -1,4 +1,4 @@
-import '../Styles/App.css';
+import '../App.css';
 export const  Title = ({name})=> {
     return   (
         <div className="title">
