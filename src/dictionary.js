@@ -76,6 +76,7 @@ const experience_en = [
         'position': 'PHP-programmer',
         'responsibilities':
             'Developed and maintained of web applications using JS (React, jQuery), PHP (Symfony, Oro) and Python (Django)|' +
+            'Developed and deployed serverless applications based on AWS Lambda|' +
             'Participated in all stages of development, including requirements analysis, design, development, testing, and deployment|' +
             'Used Git (Bitbucket) version control systems for code management|' +
             'Developed solutions tailored to the unique requirements and preferences of a specific client (LinkedIn PDF parser)|'
@@ -88,6 +89,7 @@ const experience_en = [
         'responsibilities':
             'Developed mobile applications using JS (React Native)|' +
             'Integrated mobile applications with Firebase services and APIs, ensuring efficient interaction with the server-side|' +
+            'Developed a CI/CD deployment process using GitHub Actions|' +
             'Participated in the implementation of new features and updates in mobile applications|'
     }
 ]
@@ -127,6 +129,7 @@ const experience_ru = [
         'position': 'PHP программист',
         'responsibilities':
             'Разрабатывала и поддерживала веб-приложения с использованием JS (React, jQuery), PHP (Symfony, Oro) и Python (Django)|' +
+            'Разрабатывала и развертывала serverless-приложения на базе AWS Lambda|' +
             'Участвовала во всех этапах жизненного цикла разработки: от анализа требований и проектирования до разработки, тестирования, развертывания и презентации|' +
             'Эффективно использовала системы контроля версий Git (Bitbucket) для управления кодом и командной работы|' +
             'Разрабатывала решения адаптированные под уникальные требования и предпочтения конкретного заказчика (парсер PDF LinkedIn)|',
@@ -139,6 +142,7 @@ const experience_ru = [
         'responsibilities':
             'Разрабатывала мобильные приложения с использованием JS (React Native)|' +
             'Интегрировала мобильные приложения с сервисами и API Firebase, обеспечив эффективное взаимодействие с серверной частью|' +
+            'Разрабатывала CI/CD-процесс деплоя с помощью GitHub Actions|' +
             'Участвовала во внедрении новых функций и обновлений в мобильные приложения, способствуя повышению их функциональности и удобства для пользователей|'
     }
 ]
