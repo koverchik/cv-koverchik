@@ -4,7 +4,7 @@ export const Experience = ({language}) => {
     return (
         <>
             {experienceDictionary[language].map(({name, start, end, position, responsibilities}) => {
-                const sentences = responsibilities.split(/(?<=\.)/).map(s => s.trim()).filter(Boolean);
+                const sentences = responsibilities.split(/(?<=\|)/).map(s => s.trim().replace("|", ".")).filter(Boolean);
                 return (
                     <div className={'custom-list'} key={name}>
                         <div className={'basic-information-custom-list'}>

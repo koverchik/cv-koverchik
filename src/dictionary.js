@@ -47,12 +47,14 @@ const experience_en = [
         'end': 'till now',
         'position': 'Software Engineer',
         'responsibilities':
-            'Developed and maintained web applications using PHP and the Symfony framework, ensuring clean, efficient, and maintainable code.' +
-            'Created dynamic and responsive user interfaces using jQuery and Twig templates.' +
-            'Designed and optimized databases (MySQL) for high performance and scalability.' +
-            'Debugged and optimized code for better performance and system stability.' +
-            'Documented development processes, best practices, and technical workflows in Confluence.' +
-            'Managed tasks and issue tracking using Jira improving workflow efficiency.'
+            'Developed and maintained web applications using PHP and the Symfony framework, ensuring clean, efficient, and maintainable code|' +
+            'Implemented authentication through external providers (Google, Apple ID) based on the OAuth 2.0 protocol|' +
+            'Integrated the customer data management and marketing automation platform (customer.io) with the app|' +
+            'Created dynamic and responsive user interfaces using jQuery and Twig templates|' +
+            'Designed and optimized databases (MySQL) for high performance and scalability|' +
+            'Debugged and optimized code for better performance and system stability|' +
+            'Documented development processes, best practices, and technical workflows in Confluence|' +
+            'Managed tasks and issue tracking using Jira improving workflow efficiency|'
     },
     {
         'name': 'Amasty',
@@ -60,12 +62,12 @@ const experience_en = [
         'end': 'August 2024',
         'position': 'Software developer',
         'responsibilities':
-            'Developed microservices architecture to boost the functionality and scalability of the system, utilizing the Symphony framework for service construction, including there testing and debugging.' +
-            'Integrated of microservices using RabbitMQ to facilitate asynchronous communication between system components.' +
-            'Created and optimized of databases using SQL (PostgreSQL, SQLite).' +
-            'Created automation deployment for microservices using Docker and Git (GitLab).' +
-            'Draw up manuals for using apps in Confluence using Jira.' +
-            'Increased speed of a set up and deployment process on 30% in microservices project.'
+            'Developed microservices architecture to boost the functionality and scalability of the system, utilizing the Symphony framework for service construction, including there testing and debugging|' +
+            'Integrated of microservices using RabbitMQ to facilitate asynchronous communication between system components|' +
+            'Created and optimized of databases using SQL (PostgreSQL, SQLite)|' +
+            'Created automation deployment for microservices using Docker and Git (GitLab)|' +
+            'Draw up manuals for using apps in Confluence using Jira|' +
+            'Increased speed of a set up and deployment process on 30% in microservices project| '
     },
     {
         'name': 'ScienceSoft',
@@ -73,9 +75,10 @@ const experience_en = [
         'end': 'September 2023',
         'position': 'PHP-programmer',
         'responsibilities':
-            'Developed and maintained of web applications using JS (React, jQuery), PHP (Symfony, Oro) and Python (Django).' +
-            'Participated in all stages of development, including requirements analysis, design, development, testing, and deployment.' +
-            'Used Git (Bitbucket) version control systems for code management.'
+            'Developed and maintained of web applications using JS (React, jQuery), PHP (Symfony, Oro) and Python (Django)|' +
+            'Participated in all stages of development, including requirements analysis, design, development, testing, and deployment|' +
+            'Used Git (Bitbucket) version control systems for code management|' +
+            'Developed solutions tailored to the unique requirements and preferences of a specific client (LinkedIn PDF parser)|'
     },
     {
         'name': 'Belitsoft',
@@ -83,9 +86,9 @@ const experience_en = [
         'end': 'December 2021',
         'position': 'Programmer',
         'responsibilities':
-            'Developed mobile applications using JS (React Native).' +
-            'Integrated mobile applications with Firebase services and APIs, ensuring efficient interaction with the server-side.' +
-            'Participated in the implementation of new features and updates in mobile applications.'
+            'Developed mobile applications using JS (React Native)|' +
+            'Integrated mobile applications with Firebase services and APIs, ensuring efficient interaction with the server-side|' +
+            'Participated in the implementation of new features and updates in mobile applications|'
     }
 ]
 
@@ -96,11 +99,13 @@ const experience_ru = [
         'end': 'сейчас',
         'position': 'PHP программист',
         'responsibilities':
-            'Разрабатывала и поддерживала веб-приложения на PHP (Symfony), обеспечивая чистый, эффективный и легко сопровождаемый код.' +
-            'Создавала динамичные и адаптивные пользовательские интерфейсы с применением jQuery и шаблонов Twig.' +
-            'Проектировала и оптимизировала базы данных (MySQL) для высокой производительности и масштабируемости.' +
-            'Вела документацию по процессам разработки, лучшим практикам и техническим рабочим процессам в Confluence.' +
-            'Создавала задачи и отслеживала прогресс с помощью Jira, что повышало эффективность рабочих процессов.'
+            'Разрабатывала и поддерживала веб-приложения на PHP (Symfony), обеспечивая чистый, эффективный и легко сопровождаемый код|' +
+            'Реализовывала аутентификацию через внешние провайдеры (Google, Apple ID) на основе протокола OAuth 2.0|' +
+            'Интегрировала платформу для управления клиентскими данными и автоматизации маркетинговых сообщений (customer.io) с приложением|' +
+            'Создавала динамичные и адаптивные пользовательские интерфейсы с применением jQuery и шаблонов Twig|' +
+            'Проектировала и оптимизировала базы данных (MySQL) для высокой производительности и масштабируемости|' +
+            'Вела документацию по процессам разработки, лучшим практикам и техническим рабочим процессам в Confluence|' +
+            'Создавала задачи и отслеживала прогресс с помощью Jira, что повышало эффективность рабочих процессов|'
     },
     {
         'name': 'АмДев',
@@ -108,12 +113,12 @@ const experience_ru = [
         'end': 'Август 2024',
         'position': 'Разработчик',
         'responsibilities':
-            'Разрабатывала архитектуру микросервисов для повышения функциональности и масштабируемости системы, используя фреймворк Symfony для построения сервисов, включая их тестирование и отладку.' +
-            'Реализовала интеграцию микросервисов через RabbitMQ, обеспечив эффективное асинхронное взаимодействие компонентов системы.' +
-            'Разработала и оптимизировала базы данных SQL (PostgreSQL, SQLite), что улучшило производительность и надежность работы приложений.' +
-            'Автоматизировала процесс развертывания микросервисов с использованием Docker и Git (GitLab), значительно сократив время ручных операций.' +
-            'Подготовила подробные руководства по использованию приложений в Confluence и организовала процесс управления задачами через Jira, что упростило командное взаимодействие.' +
-            'Добилась ускорения процессов настройки и развертывания в проекте микросервисов на 30%, что напрямую повлияло на эффективность разработки.'
+            'Разрабатывала архитектуру микросервисов для повышения функциональности и масштабируемости системы, используя фреймворк Symfony для построения сервисов, включая их тестирование и отладку|' +
+            'Реализовала интеграцию микросервисов через RabbitMQ, обеспечив эффективное асинхронное взаимодействие компонентов системы|' +
+            'Разработала и оптимизировала базы данных SQL (PostgreSQL, SQLite), что улучшило производительность и надежность работы приложений|' +
+            'Автоматизировала процесс развертывания микросервисов с использованием Docker и Git (GitLab), значительно сократив время ручных операций|' +
+            'Подготовила подробные руководства по использованию приложений в Confluence и организовала процесс управления задачами через Jira, что упростило командное взаимодействие|' +
+            'Добилась ускорения процессов настройки и развертывания в проекте микросервисов на 30%, что напрямую повлияло на эффективность разработки|'
     },
     {
         'name': 'Научсофт',
@@ -121,9 +126,10 @@ const experience_ru = [
         'end': 'Сентябрь 2023',
         'position': 'PHP программист',
         'responsibilities':
-            'Разрабатывала и поддерживала веб-приложения с использованием JS (React, jQuery), PHP (Symfony, Oro) и Python (Django).' +
-            'Участвовала во всех этапах жизненного цикла разработки: от анализа требований и проектирования до разработки, тестирования и развертывания.' +
-            'Эффективно использовала системы контроля версий Git (Bitbucket) для управления кодом и командной работы.'
+            'Разрабатывала и поддерживала веб-приложения с использованием JS (React, jQuery), PHP (Symfony, Oro) и Python (Django)|' +
+            'Участвовала во всех этапах жизненного цикла разработки: от анализа требований и проектирования до разработки, тестирования, развертывания и презентации|' +
+            'Эффективно использовала системы контроля версий Git (Bitbucket) для управления кодом и командной работы|' +
+            'Разрабатывала решения адаптированные под уникальные требования и предпочтения конкретного заказчика (парсер PDF LinkedIn)|',
     },
     {
         'name': 'Белитсофт Интернешнл',
@@ -131,9 +137,9 @@ const experience_ru = [
         'end': 'Декабрь 2021',
         'position': 'Программист',
         'responsibilities':
-            'Разрабатывала мобильные приложения с использованием JS (React Native).' +
-            'Интегрировала мобильные приложения с сервисами и API Firebase, обеспечив эффективное взаимодействие с серверной частью.' +
-            'Участвовала во внедрении новых функций и обновлений в мобильные приложения, способствуя повышению их функциональности и удобства для пользователей.'
+            'Разрабатывала мобильные приложения с использованием JS (React Native)|' +
+            'Интегрировала мобильные приложения с сервисами и API Firebase, обеспечив эффективное взаимодействие с серверной частью|' +
+            'Участвовала во внедрении новых функций и обновлений в мобильные приложения, способствуя повышению их функциональности и удобства для пользователей|'
     }
 ]
 
