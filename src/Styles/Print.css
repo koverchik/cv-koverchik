@@ -1,6 +1,6 @@
 @media print {
   button {
-    display: none;
+    display: none !important;
   }
 
   .app {
@@ -20,6 +20,7 @@
   .header-description {
     padding: 0 0 0 15px;
     margin: 0;
+
   }
 
   h1 {
@@ -59,8 +60,11 @@
   .extra-information {
     display: flex !important;
     flex-direction: column-reverse !important;
-
     justify-content: center !important;
+
+    .information-block-skills, .information-block-contact {
+      display: none !important;
+    }
 
     .title {
       margin-top: 10px !important;
@@ -72,6 +76,7 @@
 
       li {
         margin: 0 10px;
+        width: 100% !important;
       }
 
       li::before {
@@ -94,7 +99,17 @@
   }
 
   .title {
-    font-size: 16pt !important;
+    font-size: 14pt !important;
+  }
+
+  .wrapper-download-button, .container-download-button, .theme-container {
+    display: none !important;
+  }
+  .language-container {
+    ::after {
+      color: black;
+      content: "Email: koverchik.o@gmail.com";
+    }
   }
 
   .basic-information-custom-list {

@@ -2,7 +2,7 @@ import '../App.css';
 import {Title} from "./Title";
 export const  InformationBlock = ({name, text})=> {
     return   (
-        <div>
+        <div className={'information-block-' + name.toLowerCase() } >
             <div className={'title-information-block'}>
                 <Title name={name}/>
                 <div className={'top-border-line'}></div>

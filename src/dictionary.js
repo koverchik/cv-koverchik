@@ -47,12 +47,13 @@ const experience_en = [
         'end': 'till now',
         'position': 'Software Engineer',
         'responsibilities':
-            'Developed and maintained web applications using PHP and the Symfony framework, ensuring clean, efficient, and maintainable code|' +
+            'Developed and maintained web applications using PHP and the PHP 7.4 (Symfony 3.4), ensuring clean, efficient, and maintainable code|' +
             'Implemented authentication through external providers (Google, Apple ID) based on the OAuth 2.0 protocol|' +
             'Integrated the customer data management and marketing automation platform (customer.io) with the app|' +
+            'Developed a Bash script for automated testing of cache managers. Compared the performance and behavior of Memcached and APC under various loads, analyzed the results, and identified optimal configurations to improve caching efficiency|' +
             'Created dynamic and responsive user interfaces using jQuery and Twig templates|' +
-            'Designed and optimized databases (MySQL) for high performance and scalability|' +
-            'Debugged and optimized code for better performance and system stability|' +
+            'Designed and optimized databases (MySQL, Redis) for high performance and scalability|' +
+            'Debugged and optimized code for better system performance and stability|' +
             'Documented development processes, best practices, and technical workflows in Confluence|' +
             'Managed tasks and issue tracking using Jira improving workflow efficiency|'
     },
@@ -62,7 +63,7 @@ const experience_en = [
         'end': 'August 2024',
         'position': 'Software developer',
         'responsibilities':
-            'Developed microservices architecture to boost the functionality and scalability of the system, utilizing the Symphony framework for service construction, including there testing and debugging|' +
+            'Developed microservices architecture to boost the functionality and scalability of the system, utilizing the Symfony 5.4 (PHP 8.0) framework for service construction, including there testing and debugging|' +
             'Integrated of microservices using RabbitMQ to facilitate asynchronous communication between system components|' +
             'Created and optimized of databases using SQL (PostgreSQL, SQLite)|' +
             'Created automation deployment for microservices using Docker and Git (GitLab)|' +
@@ -101,11 +102,12 @@ const experience_ru = [
         'end': 'сейчас',
         'position': 'PHP программист',
         'responsibilities':
-            'Разрабатывала и поддерживала веб-приложения на PHP (Symfony), обеспечивая чистый, эффективный и легко сопровождаемый код|' +
+            'Разрабатывала и поддерживала веб-приложения на PHP 7.4 (Symfony 3.4), обеспечивая чистый, эффективный и легко сопровождаемый код|' +
             'Реализовывала аутентификацию через внешние провайдеры (Google, Apple ID) на основе протокола OAuth 2.0|' +
+            'Разработала bash-скрипт для автоматизированного тестирования работы кеш-менеджеров. Сравнила производительность и поведение Memcached и APC при различных нагрузках, проанализировала результаты и выявила оптимальные настройки для повышения эффективности кеширования|' +
             'Интегрировала платформу для управления клиентскими данными и автоматизации маркетинговых сообщений (customer.io) с приложением|' +
             'Создавала динамичные и адаптивные пользовательские интерфейсы с применением jQuery и шаблонов Twig|' +
-            'Проектировала и оптимизировала базы данных (MySQL) для высокой производительности и масштабируемости|' +
+            'Проектировала и оптимизировала базы данных (MySQL, Redis) для высокой производительности и масштабируемости|' +
             'Вела документацию по процессам разработки, лучшим практикам и техническим рабочим процессам в Confluence|' +
             'Создавала задачи и отслеживала прогресс с помощью Jira, что повышало эффективность рабочих процессов|'
     },
@@ -115,7 +117,7 @@ const experience_ru = [
         'end': 'Август 2024',
         'position': 'Разработчик',
         'responsibilities':
-            'Разрабатывала архитектуру микросервисов для повышения функциональности и масштабируемости системы, используя фреймворк Symfony для построения сервисов, включая их тестирование и отладку|' +
+            'Разрабатывала архитектуру микросервисов для повышения функциональности и масштабируемости системы, используя фреймворк Symfony 5.4 (PHP 8.0) для построения сервисов, включая их тестирование и отладку|' +
             'Реализовала интеграцию микросервисов через RabbitMQ, обеспечив эффективное асинхронное взаимодействие компонентов системы|' +
             'Разработала и оптимизировала базы данных SQL (PostgreSQL, SQLite), что улучшило производительность и надежность работы приложений|' +
             'Автоматизировала процесс развертывания микросервисов с использованием Docker и Git (GitLab), значительно сократив время ручных операций|' +
