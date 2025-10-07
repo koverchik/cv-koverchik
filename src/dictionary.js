@@ -47,7 +47,7 @@ const experience_en = [
         'end': 'till now',
         'position': 'Software Engineer',
         'responsibilities':
-            'Developed and maintained web applications using PHP and the PHP 7.4 (Symfony 3.4), ensuring clean, efficient, and maintainable code|' +
+            'Developed and maintained web applications using the PHP 7.4 (Symfony 3.4), ensuring clean, efficient, and maintainable code|' +
             'Implemented authentication through external providers (Google, Apple ID) based on the OAuth 2.0 protocol|' +
             'Integrated the customer data management and marketing automation platform (customer.io) with the app|' +
             'Developed a Bash script for automated testing of cache managers. Compared the performance and behavior of Memcached and APC under various loads, analyzed the results, and identified optimal configurations to improve caching efficiency|' +
