@@ -18,10 +18,6 @@ export const  Contacts = ()=> {
                 <Github/>
                 <a href={'https://github.com/koverchik'}>github.com/koverchik</a>
             </div>
-            <div className={'contact-item'}>
-                <Telegram/>
-                <a href={'https://t.me/tree_KO'}>tree_KO</a>
-            </div>
         </>
     )
 }

@@ -50,9 +50,9 @@ const experience_en = [
             'Developed and maintained web applications using the PHP 7.4 (Symfony 3.4), ensuring clean, efficient, and maintainable code|' +
             'Implemented authentication through external providers (Google, Apple ID) based on the OAuth 2.0 protocol|' +
             'Integrated the customer data management and marketing automation platform (customer.io) with the app|' +
-            'Developed a Bash script for automated testing of cache managers. Compared the performance and behavior of Memcached and APC under various loads, analyzed the results, and identified optimal configurations to improve caching efficiency|' +
+            'Compared the performance and behavior of Memcached and APC under various loads, analyzed the results,  improved caching efficiency by 5% through identification of  optimal configurations|' +
             'Created dynamic and responsive user interfaces using jQuery and Twig templates|' +
-            'Designed and optimized databases (MySQL, Redis) for high performance and scalability|' +
+            'Designed and optimized databases (MySQL, Redis) for high performance and scalability, using raw SQL query for databases, which increased the speed of response by 30%|' +
             'Debugged and optimized code for better system performance and stability|' +
             'Documented development processes, best practices, and technical workflows in Confluence|' +
             'Managed tasks and issue tracking using Jira improving workflow efficiency|'
@@ -68,7 +68,7 @@ const experience_en = [
             'Created and optimized of databases using SQL (PostgreSQL, SQLite)|' +
             'Created automation deployment for microservices using Docker and Git (GitLab)|' +
             'Draw up manuals for using apps in Confluence using Jira|' +
-            'Increased speed of a set up and deployment process on 30% in microservices project| '
+            'Increased speed of a set up and deployment process by 30% in microservices project| '
     },
     {
         'name': 'ScienceSoft',
@@ -107,8 +107,8 @@ const experience_ru = [
             'Разработала bash-скрипт для автоматизированного тестирования работы кеш-менеджеров. Сравнивая производительность и поведение Memcached и APC при различных нагрузках, проанализировала результаты и выявила оптимальные настройки для повышения эффективности кеширования|' +
             'Интегрировала платформу для управления клиентскими данными и автоматизации маркетинговых сообщений (customer.io) с приложением|' +
             'Создавала динамичные и адаптивные пользовательские интерфейсы с применением jQuery и шаблонов Twig|' +
-            'Проектировала и оптимизировала базы данных (MySQL, Redis) для высокой производительности и масштабируемости|' +
-            'Вела документацию по процессам разработки, лучшим практикам и техническим рабочим процессам в Confluence|' +
+            'Оптимизировала базы данных (MySQL, Redis) для высокой производительности и масштабируемости с использованием сырых SQL-запросов к базам данных, что увеличило скорость ответа на 30%|' +
+            'Вела документацию п о процессам разработки, лучшим практикам и техническим рабочим процессам в Confluence|' +
             'Создавала задачи и отслеживала прогресс с помощью Jira, что повышало эффективность рабочих процессов|'
     },
     {
