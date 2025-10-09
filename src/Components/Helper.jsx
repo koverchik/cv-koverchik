@@ -43,3 +43,15 @@ export const getLanguageName = (currentLanguage) => {
 export const getLanguage = (currentLanguage) => {
     return currentLanguage === LANGUAGE_NAME.RU ? LANGUAGE_NAME.EN : LANGUAGE_NAME.RU;
 }
+
+export const highlightKeywords = (text) => {
+    const keywords = [
+        'PHP 7.4', 'PHP 8.1', 'Symfony 5.4', 'JS',
+        'Docker', 'Git', 'Jira', 'OAuth 2.0', 'jQuery', 'Twig',
+        'Memcached', 'APC', 'RabbitMQ', 'MySQL', 'Redis', 'AWS Lambda', 'SQL',
+        'Confluence', 'Google, Apple ID', 'customer.io', 'Firebase', 'CI/CD', 'GitHub Actions'
+    ];
+    const regex = new RegExp(`\\b(${keywords.join('|')})\\b`, 'gi');
+
+    return text.replace(regex, '<b>$1</b>');
+};

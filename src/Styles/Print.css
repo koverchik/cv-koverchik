@@ -87,7 +87,8 @@
   }
 
   .title-basic-information-custom-list {
-    font-size: 14pt !important;
+      font-size: 12pt !important;
+      margin-top: 6px !important;
   }
 
   .custom-list, .content-description-custom-list {

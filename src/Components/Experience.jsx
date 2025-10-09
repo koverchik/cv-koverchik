@@ -1,4 +1,5 @@
 import {experienceDictionary} from "../dictionary";
+import {highlightKeywords} from "./Helper";
 
 export const Experience = ({language}) => {
     return (
@@ -14,9 +15,9 @@ export const Experience = ({language}) => {
                         <div className={'description-custom-list'}>
                             <p className={'title-description-custom-list'}>{`${position.toUpperCase()}`}</p>
                             <div className={'content-description-custom-list'}>
-                                {sentences.map((data) => {
-                                    return <p>{data}</p>
-                                })}
+                                {sentences.map((data, i) => (
+                                    <p key={i} dangerouslySetInnerHTML={{ __html: highlightKeywords(data) }} />
+                                ))}
                             </div>
                         </div>
                     </div>
